@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:text="Exact Coloring :-\n\n-> In graph theory, an exact\n    coloring is a vertex\n    coloring in which every\n    pair of colors appears on\n    exactly one pair of\n    adjacent vertices.\n\n-> That is, it is a partition of\n     the vertices of the graph\n     into disjoint independent\n     sets such that,for each\n     pair of distinct\n     independent sets in the\n     partition,there is exactly\n     one edge with endpoints\n     in each set."
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</ScrollView>

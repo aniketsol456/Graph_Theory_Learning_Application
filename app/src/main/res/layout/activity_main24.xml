@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="760dp"
+            android:text="Minimum Spanning Tree :- \n\n-> A tree T is said to be A\n    minimum weighted\n    spanning tree of a graph\n    G if T is a sub graph of\n    connected graph G\n    with connects all vertices\n    together,without any\n    cycles and minimum\n    possible total edge\n    weight.\n\n-> In other words, T is known\n    as minimum spanning tree\n    if it is a spanning tree\n    whose sum of edge\n    weights is as small as\n    possible.\n\nEx :- "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="100dp"
+            app:srcCompat="@drawable/minispanning" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Here,\nMinimum Weight = 20"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+    </LinearLayout>
+</ScrollView>

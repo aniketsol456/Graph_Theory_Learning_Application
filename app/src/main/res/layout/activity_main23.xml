@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:text="Spanning Tree :- \n\n-> A tree T is said to\n    be spanning tree of a\n    connected graph G if T\n    is a sub graph of G and T\n    contains all vertices of G.\n\n-> It is noted that spanning\n     tree is defined only for a\n     connected graph because\n     a tree is always\n     connected graph.\n\nEx :-"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/spanning" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="-> Spanning tree in above\n     graph is in Bold line."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+    </LinearLayout>
+</ScrollView>

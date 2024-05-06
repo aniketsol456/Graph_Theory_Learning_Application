@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="2000dp"
+            android:text="Theorom - 2 :- \n\n-> The number of vertices\n    of odd degree in a graph is\n    always even.\n\nProof:- \n-> By the first theorem if G is\n     a graph with n vertices\n     and e edges then,\n\n ∑_(i=1)^n deg(Vi)=2*e=even\n                                     number  \n\n-> The quantity in the left\n    side of above equation\n    can be expressed as the\n    sum of even degree\n    vertices and odd degree\n    vertices as follow\n\n∑(i=1)^n deg(Vi) =∑even \n                                deg(Vi)\n                                    +\n                                 ∑odd\n                                deg(Vi)\n\n-> Since the left hand side\n    of the above equation\n    is even by (1) and the first\n    expression on the right\n    hand side is also even\n    as sum of even numbers\n    is even. so second\n    expression must be even.\n\n∑_odd deg(Vi)=even number\n\n-> In equation above\n    equation deg(Vi) is odd so\n    that the total number of\n    the terms in the sum must\n    be even to make a sum an\n    even number.\n\n-> Therefore the number of\n     vertices of odd degree in\n     a graph is always even."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+    </LinearLayout>
+</ScrollView>

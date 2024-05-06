@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:text="Theorom - 5 :- \n\n-> A tree with n vertices has\n     n-1 edges.\n\nProof :- \n\n-> By the induction rule It is\n    easy to see that the\n    theorem is true for\n    n =1,2 and 3."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/trreetheorom1" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:text="-> Assume that\n    the theorem holds for all\n    tree with n-1  vertices.\n\n( i.e. A tree with n-1 vertices has n-2 edges)\n\n-> Let G be tree with n\n     vertices."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/treetheorom2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:text="-> Pick up any leaf v and\n     let e ={v,w} be an unique\n     edge.Now remove  v and\n     e form the graph G and\n     get graph H.\n\nNow consider the graph H.\n\n-> it connected  graph,\n\n-> it has no circuits\n     (cycles)So H is tree\n     with n-1 vertices .and\n     it has n-2 edges (Because\n     of Assumption)Therefore\n     G has (n-2)+ 1 = n-1\n     edges .Hence it is proved."
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/treetheorom3" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:text="Parellel Edge :-\n\n-> In a graph if a pair of\n    vertices is connected by\n    more then one edge,then\n    those edge are called\n    parallel edge.\n\nNOTE:- A graph having\n             parallel edges is\n             known as a \n             multigraph.\n\n-> A graph with parallel\n    edges shown in figure \n\nLoop :- \n\n-> In a graph , if an edge is\n    drawn from vertex to\n    it-self it is called a loop.\n\n-> Here A is a vertex for\n    which it has an edge (A,A)\n    forming a loop.It's shown \n    in figure. \n\nEx:-"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="100dp"
+            app:srcCompat="@drawable/parellel_and_loop" />
+
+
+    </LinearLayout>
+</ScrollView>

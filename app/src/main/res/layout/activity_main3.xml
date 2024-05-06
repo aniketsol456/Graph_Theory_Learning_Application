@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk1"
+            android:text="1.GRAPH"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk2"
+            android:text="2.NULL GRAPH"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk3"
+            android:text="3.TRIVIAL GRAPH"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk4"
+            android:text="4.PARALLEL EDGE AND \n LOOP"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk5"
+            android:text="5.simple graph"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk6"
+            android:text="6.regular graph"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk7"
+            android:text="7.directed graph and \n undirected graph"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk8"
+            android:text="8.complete graph"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk9"
+            android:text="9.Bipartite graph"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk10"
+            android:text="10.complete bipartite graph"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk11"
+            android:text="11.Sub graph"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk12"
+            android:text="12.WALK,PATH AND \n CIRCUIT"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk13"
+            android:text="13.connected and \n disconnected graph"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk14"
+            android:text="14.Euler's Graph"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk15"
+            android:text="15.Hamiltonian graph"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk16"
+            android:text="16.Hamiltonian path"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk17"
+            android:text="17.TREE"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk18"
+            android:text="18.BINARY TREE"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk19"
+            android:text="19.SPANNING TREE"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button"
+            android:onClick="clk20"
+            android:text="20.MINIMUM SPANNING TREE"
+            android:textSize="30sp" />
+    </LinearLayout>
+</ScrollView>

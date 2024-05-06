@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:text="Theorom - 4 :- \n\n->  There is one and only one\n      path between every pair\n      of vertices in a tree T.\n\nProof :-\n\n-> Since T is connected\n     graph. They must exist\n     at least one path between\n     every pair of vertices in T.\n\n-> Now suppose that\n     between two vertices\n     A and C of T there are two\n     distinct paths . "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/theioe" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="10dp"
+            android:text="Path 1 = Ae1Be3C\nPath 2 = A e4 C\n\n-> The union of these paths\n     will contain a circuit and\n     T can not be Tree.
+"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+    </LinearLayout>
+</ScrollView>

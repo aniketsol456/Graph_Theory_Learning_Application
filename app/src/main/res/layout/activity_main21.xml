@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp"
+            android:text="Tree :- \n\n-> A tree is connected graph\n     without any circuits.\n\n-> In other words a\n    connected graph with no\n    cycles. The edges of the\n    tree are known as\n    branches and vertices\n    of the trees are known as\n    nodes.Tree is a simple\n    graph.\n\n-> having neither a self loop\n    nor parallel edges.\n\n-> For tree we should have at\n     least one vertex.\n\n-> A vertex of degree one in\n    a tree is called a leaf.\n\n-> A tree with\n    one,two,three,four\n    vertices.\n\nEx :-"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="100dp"
+            app:srcCompat="@drawable/tree" />
+    </LinearLayout>
+</ScrollView>

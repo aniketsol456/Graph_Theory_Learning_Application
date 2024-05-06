@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:text="Q-1. Let a simple graph\n        G with 20 vertices and 8\n        components. If we\n        delete a vertex in\n        G, then the number of\n        components in G should\n        lie between ____.\n\n(A) 8 and 20\n(B) 8 and 19\n(C) 7 and 19\n(D) 7 and 20\n"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/button"
+            android:onClick="clk1"
+            android:text="GET ANS:-" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Q-2. How many edges may\n        an acyclic undirected\n        graph with n vertices\n        have?\n\n(A) n + 1\n(B) n - 1\n(C) n\n(D) 2n - 1"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/button28"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/button"
+            android:onClick="clk2"
+            android:text="GET ANS:-" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="1300dp"
+            android:layout_marginTop="10dp"
+            android:text="Q-3. Let a weighted\n         undirected graph\n         G and e be an edge with\n         the greatest weight in\n         G. Assume G has a\n         minimum weight\n         spanning tree with\n         the edge e. Which of\n         the following\n         propositions is\n         consistently TRUE?\n\n(A) Edge e cannot be\n      contained in a cycle.\n(B) In G, there is a cycle\n      with all edges of maximal\n      weight.\n(C) A cutset in G has all\n      edges of maximum\n      weight.\n(D) All edges in G have the\n      same weight\n\nAns :- There exists a cutset\n            in G having all edges\n             of maximum weight.\n\nExplanation :-\nOption C asserts that if e is in the minimum spanning tree, there must be a cut-set (minimum edge set whose removal disconnects the graph) in G with all edges of the greatest weight. And it is correct."
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="900dp"
+            android:layout_marginTop="10dp"
+            android:text="Q-4. In a bipartite graph\n        on 12 vertices,what is\n        the maximum number\n        of edges present\n        _________?\n\n(A) 32\n(B) 35\n(C) 46\n(D) 36\n\nAns :- 36\n\nExplanation :- We know, Maximum possible number of edges in a bipartite graph on ‘n’ vertices = (1/4)xn2.\n\nSubstituting n = 12, we get the maximum number of edges in a bipartite graph on 12 vertices.\n= (1/4) x (12)2\n=(1/4) x 12 x 12\n= 36"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="900dp"
+            android:layout_marginTop="10dp"
+            android:text="Q-5. What is the number\n         of an m-vertex simple\n         connected graph\n         which does not contain\n         any odd-length cycle?\n         Assume m >= 2.\n\n(A) 3\n(B) 2\n(C) m-1\n(D) m\n\nAns :- 2\n\nExplanation :-\nThe chromatic number of a graph is the smallest number of colors needed to color the vertices so that no two adjacent vertices share the same color.  "
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

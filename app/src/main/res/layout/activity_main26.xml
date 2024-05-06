@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="1100dp"
+            android:text="Theorom - 1 :- \n\n-> In a graph G,the sum of \n    the degree of all vertices \n    of all vertices of G is \n    equal to twice the number\n    of edge of G. \n\n deg(V1) +...+ deg(Vn)=2*e \n\nProof :- \n\n-> Let f be any edge of graph \n    G. \n-> If f is a loop on vertex V1 \n    then f is count twice when\n    we count degree of vertex\n    V1.\n-> If f is incident on V1 and \n    V2 then f is count inn both \n    deg(V1) and deg(V2).so f \n    is count twice if we add \n    deg(V1) and deg(V2).\n-> So that adding the degree\n    of all vertices involves \n    counting twice of each \n    edge of G.\n-> Therefore addtion of\n    degree of all vertex is\n    equal to twice of number \n    of edges. "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+    </LinearLayout>
+</ScrollView>

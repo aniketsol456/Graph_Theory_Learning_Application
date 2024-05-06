@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="1500dp"
+            android:text="Theorom - 3 :- \n\n->The maximum number of\n   edges in a simple graph\n   with n vertices is(n(n-1))/2\n\nProof :-\n\n-> Let G is a simple Graph\n    with n vertices.\n\n-> Since G is a simple Graph\n    first vertex can be\n    adjacent with maximum\n    (n – 1) vertices. So on\n    first vertex n – 1 edges\n    incident.\n\n-> Now first vertex adjacent\n    with second vertex so\n    second vertex can be\n    adjacent with maximum\n    (n – 2) vertices.\n    So on second vertex\n    maximum (n – 2) new\n    edges incident.\n\n=(n-1)+(n-2)+(n-3)+...+1+0\n\n=(n-1)+(n-2)+(n-3)+...+1+n-n\n\n=1+2+3+...+(n-3)+(n-2)\n  +(n-1)+n-n\n\n=(n(n+1))/2-n\n\n=(n(n-1))/2"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+    </LinearLayout>
+</ScrollView>
